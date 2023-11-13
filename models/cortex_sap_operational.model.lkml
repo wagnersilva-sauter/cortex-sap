@@ -1,5 +1,6 @@
 # Define the database connection to be used for this model.
-connection: "bq-cimed-cortex"
+
+connection: "@{CONNECTION_NAME}"
 
 # include all the views
 include: "/views/**/*.view"
@@ -32,7 +33,7 @@ named_value_format: Greek_Number_Format {
 }
 
 explore: data_intelligence_ar {
-sql_always_where: ${Client_ID} = "poc-sap-cortex-401614" ;;
+sql_always_where: ${Client_ID} = "@{CLIENT}";;
   join: currency_conversion_new {
     type: left_outer
     relationship: one_to_many
