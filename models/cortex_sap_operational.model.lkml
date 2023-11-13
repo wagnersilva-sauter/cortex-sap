@@ -32,7 +32,7 @@ named_value_format: Greek_Number_Format {
 }
 
 explore: data_intelligence_ar {
-sql_always_where: ${Client_ID} = "@{CLIENT}" ;;
+sql_always_where: ${Client_ID} = "poc-sap-cortex-401614" ;;
   join: currency_conversion_new {
     type: left_outer
     relationship: one_to_many
