@@ -14,6 +14,6 @@ constant: REPORTING_DATASET {
 }
 
 constant: CLIENT {
-  value: "401614"
+  value: "poc-sap-cortex-401614"
   export: override_required
 }
