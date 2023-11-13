@@ -17,6 +17,10 @@ view: data_intelligence_ar {
       value: "USD"
     }
     allowed_value: {
+      label: "BRL"
+      value: "BRL"
+    }
+    allowed_value: {
       label: "EUR"
       value: "EUR"
     }
@@ -28,7 +32,7 @@ view: data_intelligence_ar {
       label: "JPY"
       value: "JPY"
     }
-    default_value: "USD"
+    default_value: "BRL"
   }
 
   parameter: Day_Sales_Outstanding {
