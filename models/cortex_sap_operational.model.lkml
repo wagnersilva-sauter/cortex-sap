@@ -1,5 +1,5 @@
 # Define the database connection to be used for this model.
-connection: "@{CONNECTION_NAME}"
+connection: "bq-cimed-cortex"
 
 # include all the views
 include: "/views/**/*.view"
